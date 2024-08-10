@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>
+            Travel Project
+        </title>
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+/>
+        <!--font awesome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!--custom css file link-->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+<!--header section starts-->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>S</span>aro <span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!--header section ends-->
+
+<!--login form container-->
+
+<div class="login-form-container">
+
+    <i class="fas fa-time" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+
+    
+
+<!--home section starts-->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h1>Saro Tour and Travel</h1>
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+    
+    <div class="controls">
+        <span class="vid-btn active" data-src="C:\Users\HP\OneDrive\Pictures\InShot_20230925_200236949.mp4"></span>
+        <span class="vid-btn" data-src="C:\Users\HP\Downloads\istockphoto-497375361-640_adpp_is.mp4"></span>
+        <span class="vid-btn" data-src="C:\Users\HP\Downloads\istockphoto-1134911129-640_adpp_is.mp4"></span>
+        <span class="vid-btn" data-src="C:\Users\HP\Downloads\istockphoto-699620004-640_adpp_is.mp4"></span>
+        <span class="vid-btn" data-src="C:\Users\HP\Downloads\istockphoto-1151597371-640_adpp_is.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="C:\Users\HP\OneDrive\Pictures\InShot_20230925_200236949.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!--home section ends-->
+
+<!--book section starts-->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="C:\Users\HP\Downloads\tour.jpg"alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="Place name">
+            </div>
+            <div class="inputBox">
+                <h3>How many</h3>
+                <input type="number" placeholder="Number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+
+</section>
+
+<!--book section ends-->
+
+
+<!--packages section starts-->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\mumbai.jpg" height="150" width="250" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+                <p>Mumbai, one of the major cosmopolitan cities in India, is a popular tourist attraction.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> RS 16000.00 <span>RS 20000.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\vijayawada.jpg" height="150" width="250" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Vijayawada </h3>
+                <p>Kanaka Durga Temple of the Hindu Goddess Durga residing on the Indrakeeladri hill.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> RS 11000.00 <span>RS 15000.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\goa.jpg" height="150" width="250" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Goa </h3>
+                <p>Mainly known for its beaches, Goa can be the perfect destination for a short holiday.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> RS 18000.00 <span>RS 25000.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\hyderabad.jpg" height="150" width="250" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Hyderabad </h3>
+                <p>Hyderabad is known as The City of Pearls, as once it was the only global centre for trade of large diamonds</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> RS 16000.00 <span>RS 22000.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\delhi.jpg" height="150" width="250" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Delhi </h3>
+                <p>New Delhi is best known as the location of India's national government. The city has many historical monuments.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> RS 20000.00 <span>RS 25000.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\bangalore.jpg" height="150" width="250" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Bangalore </h3>
+                <p>Bengaluru is the “Silicon Valley of India” and famous for its natural charm owing to several green parks surrounding the city.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> RS 30000.00 <span>RS 34000.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--packages section ends-->
+
+<!--services section starts-->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable hotels</h3>
+            <p>While we offers the world's most affordable five-star hotel rooms.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food and drinks</h3>
+            <p>The foods and drinks we put into our bodies are our fuel. So we serve best and healthy food.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Share your travel information. Before you leave, share your itinerary with someone you trust. Your whole journey is tracked by us for your safety.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Around the world</h3>
+            <p>We can take you to travel around the world with the best prices ever.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fastest travel</h3>
+            <p>The most obvious benefit of fast travel is that you can see and do more things and you can also cover more ground.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventures</h3>
+            <p>New environments and cultures are packed full of meaningful life lessons that you might not be exposed to in your everyday life. Adventures expand the way we see and interact with the world.</p>
+        </div>
+    </div>
+
+
+</section>
+
+<!--services section ends-->
+
+<!--gallery section starts-->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\gallery1.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>Hill stations are towns at a higher altitude than the nearby plains or valleys.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\gallery2.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>Lively and dynamic, New Delhi brims with a rich culture, history, and the energy of life.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\gallery3.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>Kerala is full of backwaters, hill stations, Ayurvedic tourism and tropical greenery.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\gallery4.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>Landscapes of jagged lava flows, creaking glaciers, and vast, open vistas shaped over the millennia by ice.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\gallery5.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>The epitome of romance and an awe-inspiring architectural wonder, the Taj Mahal is a beautiful place.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\gallery6.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>spread the carpet of sand to welcome the lovers of silent spaces with a warm smile.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\gallery7.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>The sandy beaches and sunny weather attract people from across the globe.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\gallery10.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>Multiple options for entertainment, like parties and nightlife, which also add to an exquisite holiday.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\HP\Downloads\gallery9.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>Number of beautiful temples, mosques & churches.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--gallery section ends-->
+
+<!--review section starts-->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="C:\Users\HP\Downloads\review6.jpg" alt="">
+                    <h3>Vishal</h3>
+                    <p>Its a complete turn key solution for your travel needs. Helped me with visa process, ticket booking while traveling to Dubai . Quick assistance and have solutions for any issues.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div></div></div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="C:\Users\HP\Downloads\review7.jpg" alt="">
+                    <h3>Fayaz</h3>
+                    <p>The trip was fantastic. Everything was well coordinated since the time we landed at Male airport till we departed. Highly recommend the Villa Nautica resort for vegetarians.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div></div></div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="C:\Users\HP\Downloads\review3.jpg" alt="">
+                    <h3>Rushikesh</h3>
+                    <p>We recently went on a trip to Dubai and all I can say is  Saro travel is the only recommended travel partner for such trips. It was perfectly planned catering to all our requirements.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div></div></div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="C:\Users\HP\Downloads\review4.jpg" alt="">
+                    <h3>Akhilesh</h3>
+                    <p>We enjoyed our trip and faced no difficulties so has been a remarkable experience. Evrything arranged was perfect and on time.The price and times suggestions were very reasonable. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div></div></div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="C:\Users\HP\Downloads\review5.jpg" alt="">
+                    <h3>Somesh</h3>
+                    <p>One of the best travel agency we have come across. Fantastic turn around time for visas. Their package price is also good. We had. A very good time with them. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div></div></div></div>
+    </div>
+</section>
+
+<!--review section ends-->
+
+<!--contact section starts-->
+
+<section class="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="C:\Users\HP\Downloads\contact.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+
+</section>
+
+<!--contact section ends-->
+
+<!-- brand section -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="C:\Users\HP\Downloads\brandlogo1.jpg" width="200" height="200" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\HP\Downloads\brandlogo2.jpg" width="200" height="200" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\HP\Downloads\brandlogo3.jpg" width="200" height="200" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\HP\Downloads\brandlogo5.jpg" width="200" height="200" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\HP\Downloads\brandlogo6.jpg" width="200" height="200" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About us</h3>
+            <p>Saro Tour and Travels - Indian travel agency/tour operators for fulfill your complete travel requirement. Find travel in India, Saro tour and Travels offers you various choices at little amount backed by a good service. We offer you Indian Travel Package, International holidays, flight tickets, Honeymoon Package and several enormous bargains!</p>
+        </div>
+        <div class="box">
+            <h3>Branch locations</h3>
+            <a href="#">Vijayawada</a>
+            <a href="#">Chennai</a>
+            <a href="#">Hyderabad</a>
+            <a href="#">Bangulore</a>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow me</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> Created by <span> Pavan kumar Jagarlamudi </span> | all rights reserved</h1>
+</section> 
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!--custom js file link-->
+        <script src="js/script.js"></script>
+
+    </body>
+    
+</html>
